@@ -1,5 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
+    {"id":{"name":"bullet","path":"sprites/bullet/bullet.yy",},"order":0,},
+    {"id":{"name":"bullet_demo","path":"objects/bullet_demo/bullet_demo.yy",},"order":1,},
+    {"id":{"name":"aim","path":"objects/aim/aim.yy",},"order":2,},
+    {"id":{"name":"shoot_demo","path":"objects/shoot_demo/shoot_demo.yy",},"order":0,},
+    {"id":{"name":"character","path":"sprites/character/character.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
