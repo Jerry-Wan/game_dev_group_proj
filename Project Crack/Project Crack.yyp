@@ -7,6 +7,8 @@
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"order":8,},
     {"id":{"name":"Obj_PlayerChatacter","path":"objects/Obj_PlayerChatacter/Obj_PlayerChatacter.yy",},"order":0,},
     {"id":{"name":"Obj_KingOfTheRoll","path":"objects/Obj_KingOfTheRoll/Obj_KingOfTheRoll.yy",},"order":1,},
+    {"id":{"name":"Spr_TestBuillet","path":"sprites/Spr_TestBuillet/Spr_TestBuillet.yy",},"order":2,},
+    {"id":{"name":"Obj_TestBullet","path":"objects/Obj_TestBullet/Obj_TestBullet.yy",},"order":2,},
     {"id":{"name":"Spr_Land","path":"sprites/Spr_Land/Spr_Land.yy",},"order":1,},
     {"id":{"name":"Obj_DamageAreaToEnemy","path":"objects/Obj_DamageAreaToEnemy/Obj_DamageAreaToEnemy.yy",},"order":0,},
     {"id":{"name":"Obj_DamageAreaToPlayer","path":"objects/Obj_DamageAreaToPlayer/Obj_DamageAreaToPlayer.yy",},"order":0,},
