@@ -89,6 +89,7 @@ if(keySwitchWeapon){
 	if(hasSword&&hasWond){
 		if(weaponState == WeaponStates.sword){
 			weaponState = WeaponStates.wond;
+			instance_create_layer(x+10,y-32, "Obstacles",Obj_Aiming);
 		}else if(weaponState == WeaponStates.wond){
 			weaponState = WeaponStates.sword;
 		}else{
@@ -102,4 +103,14 @@ if(keySwitchWeapon){
 //Attadck
 if(keyAttack){
 	ChangeCharacterState(CharacterStates.attack);
+	if(weaponState == WeaponStates.sword){
+		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+	}
+	if(weaponState == WeaponStates.empty){
+		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+	}
+	if(weaponState == WeaponStates.wond){
+		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_bullets);
+	}
+	
 }

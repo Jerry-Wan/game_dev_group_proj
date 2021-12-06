@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Aim",
-    "path": "sprites/Aim/Aim.yy",
+    "name": "Spr_hit_box_test",
+    "path": "sprites/Spr_hit_box_test/Spr_hit_box_test.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Aiming",
+  "name": "Obj_test_box",
   "tags": [],
   "resourceType": "GMObject",
 }
