@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
+  "width": 64,
   "height": 64,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b8c72be8-88bf-4a63-baa7-b14a150d26f7","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8c72be8-88bf-4a63-baa7-b14a150d26f7","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},"LayerId":{"name":"bde8b7eb-a963-419a-901a-df79f76e6058","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_hit_box_test","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},"resourceVersion":"1.0","name":"b8c72be8-88bf-4a63-baa7-b14a150d26f7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c9e7d38a-dcab-477a-bc7a-4186944a557e","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c9e7d38a-dcab-477a-bc7a-4186944a557e","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},"LayerId":{"name":"d82ef60b-fa0d-477f-af48-d42fc5108dbc","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_test_enemy","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},"resourceVersion":"1.0","name":"c9e7d38a-dcab-477a-bc7a-4186944a557e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_hit_box_test","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},
+    "spriteId": {"name":"Spr_test_enemy","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2f78a9f8-9a22-4b21-b6ab-ab33e0f11a59","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8c72be8-88bf-4a63-baa7-b14a150d26f7","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"03b5c0f9-1b36-40de-a979-31d2adccb3d9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c9e7d38a-dcab-477a-bc7a-4186944a557e","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_hit_box_test","path":"sprites/Spr_hit_box_test/Spr_hit_box_test.yy",},
+    "parent": {"name":"Spr_test_enemy","path":"sprites/Spr_test_enemy/Spr_test_enemy.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_hit_box_test",
+    "name": "Spr_test_enemy",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bde8b7eb-a963-419a-901a-df79f76e6058","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d82ef60b-fa0d-477f-af48-d42fc5108dbc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/WondAttackEffect.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_hit_box_test",
+  "name": "Spr_test_enemy",
   "tags": [],
   "resourceType": "GMSprite",
 }
