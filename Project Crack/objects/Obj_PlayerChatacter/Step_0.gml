@@ -103,11 +103,22 @@ if(keySwitchWeapon){
 //Attadck
 if(keyAttack){
 	ChangeCharacterState(CharacterStates.attack);
+	//decide whether create hitbox or shoot base on weaponState
 	if(weaponState == WeaponStates.sword){
-		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+		if image_xscale >0{ 
+			instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+		}
+		else{
+			instance_create_layer(x-42,y-32, "Obstacles",Obj_test_box);
+		}
 	}
 	if(weaponState == WeaponStates.empty){
-		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+		if image_xscale >0{ 
+			instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+		}
+		else{
+			instance_create_layer(x-42,y-32, "Obstacles",Obj_test_box);
+		}
 	}
 	if(weaponState == WeaponStates.wond){
 		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_bullets);
