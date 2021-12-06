@@ -17,6 +17,15 @@ movement = keyLeft + keyRight;
 horizontalSpeed = movement * -moveSpeed;
 verticalSpeed += characterGravity;
 
+//view_point setting 
+camera_get_view_x(view_camera[0]); // gets cam x pos
+camera_get_view_y(view_camera[0]); // gets cam y pos
+var wide = camera_get_view_width(view_camera[0]); // gets cam width
+var high = camera_get_view_height(view_camera[0]); // gets cam height
+
+camera_set_view_pos(view_camera[0],x-wide/2,y-high/2-200) ;
+// sets camera position; x & y are the object position default variables
+
 //Land/floating Check
 if(onLand){
 	if(characterState!=CharacterStates.jump&&characterState!=CharacterStates.attack){
@@ -121,6 +130,12 @@ if(keyAttack){
 		}
 	}
 	if(weaponState == WeaponStates.wond){
+		if mouse_x <x{
+			image_xscale = -1;
+		}
+		if mouse_x >x{
+			image_xscale = 1;
+		}
 		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_bullets);
 	}
 	
