@@ -10,7 +10,7 @@ keyDash = mouse_check_button_pressed(mb_right)
 keyUseItem = keyboard_check_pressed(vk_space);
 keyAttack = mouse_check_button_pressed(mb_left);
 keyAttackHeld = mouse_check_button(mb_left);
-keySwitchWeapon = mouse_check_button_pressed(mb_middle);
+keySwitchWeapon = keyboard_check(ord("R"));
 
 
 movement = keyLeft + keyRight;
