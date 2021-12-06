@@ -14,6 +14,8 @@ enum WeaponStates{
 	wond = 2
 }
 
+hp = 100
+mp = 100
 
 function GetDamage(){
 	playerHealth--;
