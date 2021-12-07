@@ -20,9 +20,12 @@ mp = 100
 ableToShoot = true
 
 function GetDamage(){
-	playerHealth--;
-	invincible = true;
-	alarm[0] = 100;
+	if(!invincible){
+		hp -= 25;
+		invincible = true;
+		ChangeCharacterState(CharacterStates.hurt);
+		alarm[0] = 120;
+	}
 }
 
 characterState = CharacterStates.idle;

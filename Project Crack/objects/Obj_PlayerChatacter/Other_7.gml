@@ -31,3 +31,12 @@ if (sprite_index == Spr_Character_AttackWond) {
 	}
     image_index = 0;
 }
+
+if (sprite_index == Spr_Character_Hurt) {
+    if(onLand){
+		ChangeCharacterState(CharacterStates.idle);
+	}else{
+		ChangeCharacterState(CharacterStates.jump);
+	}
+    image_index = 0;
+}

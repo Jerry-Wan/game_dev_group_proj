@@ -28,7 +28,7 @@ camera_set_view_pos(view_camera[0],x-wide/2,y-high/2-200) ;
 
 //Land/floating Check
 if(onLand){
-	if(characterState!=CharacterStates.jump&&characterState!=CharacterStates.attack){
+	if(characterState!=CharacterStates.jump&&characterState!=CharacterStates.attack&&characterState!=CharacterStates.hurt){
 		if(movement>0){
 			ChangeCharacterState(CharacterStates.run);
 			image_xscale = -1;
@@ -40,7 +40,7 @@ if(onLand){
 		}
 	}	
 }else{
-	if(characterState == CharacterStates.jump&&characterState!=CharacterStates.attack){
+	if(characterState == CharacterStates.jump&&characterState!=CharacterStates.attack&&characterState!=CharacterStates.hurt){
 		
 		if(movement>0){
 			image_xscale = -1;
