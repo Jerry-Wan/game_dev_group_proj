@@ -1,6 +1,6 @@
 /// @description 在此处插入描述 
 // 你可以在此编辑器中写入代码
-health = 100
+selfhealth = 100
 hit = false
 attackCooldown = false;
 attackLast = false;
@@ -13,17 +13,24 @@ enum EnemyStates{
 }
 
 enemyState = EnemyStates.normal;
-
+randomize();
 
 function GetHit(damage){
 	if (hit == false){
 		hit = true
-		health -= damage
+		selfhealth -= damage
 		alarm[0]=30
 	}
 
-	if (health == 0){
+	if (selfhealth == 0){
 		instance_destroy()
+		prob = random(10)
+		if prob <4{
+			var mpBottle = instance_create_layer(x+10,y-32, "Obstacles",Obj_test_mp_bottle);
+			if x <Obj_Furry.x{
+				mpBottle.inverse = -1
+			}
+		}
 	}
 }
 
