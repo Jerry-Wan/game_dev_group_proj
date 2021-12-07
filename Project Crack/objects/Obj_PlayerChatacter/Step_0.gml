@@ -91,6 +91,7 @@ if(place_meeting(x,y+1, Obj_SafeObstacle)&&keyJump){
 }
 
 //SwitchWeapon
+/*
 if(keySwitchWeapon){
 	if(!hasSword&&!hasWond){
 		//nothing happens, still empty hand.
@@ -108,6 +109,7 @@ if(keySwitchWeapon){
 	if(hasSword&&!hasWond){ weaponState = WeaponStates.sword; }//first time pick up weapon
 	if(!hasSword&&hasWond){ weaponState = WeaponStates.wond; }
 }
+*/
 
 //Attadck
 if(keyAttack){
@@ -130,13 +132,18 @@ if(keyAttack){
 		}
 	}
 	if(weaponState == WeaponStates.wond){
-		if mouse_x <x{
-			image_xscale = -1;
+		if mp >= 10 and ableToShoot == true{
+			if mouse_x <x{
+				image_xscale = -1;
+			}
+			if mouse_x >x{
+				image_xscale = 1;
+			}
+			instance_create_layer(x+10,y-32, "Obstacles",Obj_test_bullets);
+			mp -= 10
+			ableToShoot = false
+			alarm[1] = 50
 		}
-		if mouse_x >x{
-			image_xscale = 1;
-		}
-		instance_create_layer(x+10,y-32, "Obstacles",Obj_test_bullets);
 	}
 	
 }

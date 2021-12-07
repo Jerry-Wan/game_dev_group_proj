@@ -16,6 +16,8 @@ enum WeaponStates{
 
 hp = 100
 mp = 100
+//shoot cd
+ableToShoot = true
 
 function GetDamage(){
 	playerHealth--;
