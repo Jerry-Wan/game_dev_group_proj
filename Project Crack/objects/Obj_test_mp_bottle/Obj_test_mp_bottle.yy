@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_mp_bottle",
-    "path": "sprites/Spr_mp_bottle/Spr_mp_bottle.yy",
+    "name": "SPR_MPbottle",
+    "path": "sprites/SPR_MPbottle/SPR_MPbottle.yy",
   },
   "solid": false,
   "visible": true,

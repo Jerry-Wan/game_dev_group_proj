@@ -4,7 +4,7 @@
     "path": "sprites/Spr_Land/Spr_Land.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

@@ -1,47 +1,47 @@
 {
-  "bboxMode": 2,
-  "collisionKind": 1,
+  "bboxMode": 0,
+  "collisionKind": 4,
   "type": 0,
-  "origin": 4,
+  "origin": 7,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 53,
+  "bbox_left": 25,
   "bbox_right": 73,
-  "bbox_top": 38,
+  "bbox_top": 60,
   "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 128,
+  "width": 96,
+  "height": 96,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 64,
+  "gridX": 48,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"39379e7e-3890-4501-8aad-623c73c15566","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"39379e7e-3890-4501-8aad-623c73c15566","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"39379e7e-3890-4501-8aad-623c73c15566","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ea440ef7-34a2-4fa2-aa53-0b60c7da9901","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ea440ef7-34a2-4fa2-aa53-0b60c7da9901","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"ea440ef7-34a2-4fa2-aa53-0b60c7da9901","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c6dc7154-ef51-4abc-8c2a-169767fb2be5","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c6dc7154-ef51-4abc-8c2a-169767fb2be5","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"c6dc7154-ef51-4abc-8c2a-169767fb2be5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"9fa57d29-886e-461c-b1a1-739fafbf0e3c","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9fa57d29-886e-461c-b1a1-739fafbf0e3c","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"9fa57d29-886e-461c-b1a1-739fafbf0e3c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"5638b39e-3d9a-4918-98b2-e2bff2e4dbda","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5638b39e-3d9a-4918-98b2-e2bff2e4dbda","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"5638b39e-3d9a-4918-98b2-e2bff2e4dbda","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"ed0d1b8a-825a-4a72-8544-6fbe3faf26e7","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ed0d1b8a-825a-4a72-8544-6fbe3faf26e7","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"ed0d1b8a-825a-4a72-8544-6fbe3faf26e7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3ee71397-803c-4f94-b9a9-5900046cb7d1","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3ee71397-803c-4f94-b9a9-5900046cb7d1","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"3ee71397-803c-4f94-b9a9-5900046cb7d1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ed712760-148f-41b4-8c94-3ab193006c5e","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ed712760-148f-41b4-8c94-3ab193006c5e","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"ed712760-148f-41b4-8c94-3ab193006c5e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a852cf4d-365a-4835-818d-a5c38061a4f7","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a852cf4d-365a-4835-818d-a5c38061a4f7","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"a852cf4d-365a-4835-818d-a5c38061a4f7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b30e3a69-ac5c-4f86-aefe-d8e744f09d26","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b30e3a69-ac5c-4f86-aefe-d8e744f09d26","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"b30e3a69-ac5c-4f86-aefe-d8e744f09d26","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"caac7882-20e2-48c6-b56d-5a0046dbd1f9","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"caac7882-20e2-48c6-b56d-5a0046dbd1f9","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"caac7882-20e2-48c6-b56d-5a0046dbd1f9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1e27a72e-9c5f-4978-90df-796c0ff07e60","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1e27a72e-9c5f-4978-90df-796c0ff07e60","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"1e27a72e-9c5f-4978-90df-796c0ff07e60","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},
@@ -56,16 +56,16 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"961ff3e4-7d95-41fd-b3d4-7100a94a917d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"39379e7e-3890-4501-8aad-623c73c15566","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"19142944-a8c4-4d4e-bc98-6b629949f12d","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea440ef7-34a2-4fa2-aa53-0b60c7da9901","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"89fa9524-688d-461a-a571-c4633981b33a","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c6dc7154-ef51-4abc-8c2a-169767fb2be5","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"1649460a-9433-464c-91a2-d56960ce0e03","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9fa57d29-886e-461c-b1a1-739fafbf0e3c","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"5111832b-4597-47bd-a9d7-efaea8d68eec","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5638b39e-3d9a-4918-98b2-e2bff2e4dbda","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"71a7038e-2e62-4b9b-8a85-1c3ea3093d45","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed0d1b8a-825a-4a72-8544-6fbe3faf26e7","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f8712ef7-6b98-4abb-8723-3c119e54e15b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ee71397-803c-4f94-b9a9-5900046cb7d1","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"97bf8509-8074-4c13-8626-77839b4e77f1","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed712760-148f-41b4-8c94-3ab193006c5e","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"31667a0c-2cf7-4db8-8d40-94c3bb5b05df","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a852cf4d-365a-4835-818d-a5c38061a4f7","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5dd578e2-1b45-468d-89b9-2a0bd480e158","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b30e3a69-ac5c-4f86-aefe-d8e744f09d26","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c253d4c1-11e0-469d-9806-3dc4cede5008","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"caac7882-20e2-48c6-b56d-5a0046dbd1f9","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2a51129f-764c-4b56-8d9d-a66043b1c492","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e27a72e-9c5f-4978-90df-796c0ff07e60","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
-    "lockOrigin": true,
+    "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
     "backdropImagePath": "",
@@ -74,8 +74,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
-    "yorigin": 64,
+    "xorigin": 48,
+    "yorigin": 96,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Character_RunSword","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},
@@ -85,7 +85,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"dac6aa26-3550-47de-adb9-e5c96f45d339","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"362d7613-1766-4bdf-af0d-1f6dbb4afcd6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,

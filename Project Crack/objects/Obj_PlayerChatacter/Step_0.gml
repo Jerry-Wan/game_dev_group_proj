@@ -85,7 +85,7 @@ y += verticalSpeed;
 
 //Jump
 if(place_meeting(x,y+1, Obj_SafeObstacle)&&keyJump){
-	verticalSpeed = -27;
+	verticalSpeed = -20;
 	onLand = false;
 	ChangeCharacterState(CharacterStates.jump);
 }

@@ -1,41 +1,41 @@
 {
-  "bboxMode": 2,
-  "collisionKind": 1,
+  "bboxMode": 0,
+  "collisionKind": 4,
   "type": 0,
-  "origin": 4,
+  "origin": 7,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 49,
-  "bbox_right": 72,
-  "bbox_top": 40,
-  "bbox_bottom": 99,
+  "bbox_left": 32,
+  "bbox_right": 75,
+  "bbox_top": 59,
+  "bbox_bottom": 95,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 128,
+  "width": 96,
+  "height": 96,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 64,
+  "gridX": 48,
   "gridY": 16,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"69abca36-1dd3-446b-8fb0-9a0e6a217445","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69abca36-1dd3-446b-8fb0-9a0e6a217445","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"d890888f-247d-40c1-ae78-5712c871792d","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"69abca36-1dd3-446b-8fb0-9a0e6a217445","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"cd9c7caf-f3de-4723-8830-28cdf819ba49","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd9c7caf-f3de-4723-8830-28cdf819ba49","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"d890888f-247d-40c1-ae78-5712c871792d","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"cd9c7caf-f3de-4723-8830-28cdf819ba49","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"3782c31a-d3eb-40c1-880f-6f58678e5c95","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3782c31a-d3eb-40c1-880f-6f58678e5c95","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"d890888f-247d-40c1-ae78-5712c871792d","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"3782c31a-d3eb-40c1-880f-6f58678e5c95","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"4f3a8c9e-917c-4580-a7dc-c9cde744d575","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4f3a8c9e-917c-4580-a7dc-c9cde744d575","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"d890888f-247d-40c1-ae78-5712c871792d","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"4f3a8c9e-917c-4580-a7dc-c9cde744d575","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f290110a-409a-47e5-b919-60d8b0213f56","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f290110a-409a-47e5-b919-60d8b0213f56","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"538c555e-f173-410c-b657-b1fa8db12e8e","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"f290110a-409a-47e5-b919-60d8b0213f56","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"794434ab-240b-4931-9843-50ff8042bd2b","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"794434ab-240b-4931-9843-50ff8042bd2b","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"538c555e-f173-410c-b657-b1fa8db12e8e","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"794434ab-240b-4931-9843-50ff8042bd2b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f88e1fcb-d4a6-4964-83d9-914fe4876c82","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f88e1fcb-d4a6-4964-83d9-914fe4876c82","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"538c555e-f173-410c-b657-b1fa8db12e8e","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"f88e1fcb-d4a6-4964-83d9-914fe4876c82","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"187c92a5-4bc7-4453-82aa-3080d51cc5b0","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"187c92a5-4bc7-4453-82aa-3080d51cc5b0","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"538c555e-f173-410c-b657-b1fa8db12e8e","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"187c92a5-4bc7-4453-82aa-3080d51cc5b0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},
@@ -50,14 +50,14 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"bc6990e2-2e19-442c-86e0-81048167fe76","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"69abca36-1dd3-446b-8fb0-9a0e6a217445","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"4fb0c336-056f-4e5f-ab1b-5a6a35ca7e8f","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd9c7caf-f3de-4723-8830-28cdf819ba49","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"308cebb6-411e-401e-ad5b-14a0aa034f4e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3782c31a-d3eb-40c1-880f-6f58678e5c95","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"e1176c02-86a6-4003-bed9-4d33bab29fc4","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4f3a8c9e-917c-4580-a7dc-c9cde744d575","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"25db7db8-5e38-4b24-a4ce-b548613c96f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f290110a-409a-47e5-b919-60d8b0213f56","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a969d4ce-a2c8-47ac-a89a-16194719e7b9","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"794434ab-240b-4931-9843-50ff8042bd2b","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"be397367-6a85-4bc3-bb38-f8b410da9036","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f88e1fcb-d4a6-4964-83d9-914fe4876c82","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"de65f8f1-bab4-443b-93ff-69885038ce7d","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"187c92a5-4bc7-4453-82aa-3080d51cc5b0","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
-    "lockOrigin": true,
+    "lockOrigin": false,
     "showBackdrop": true,
     "showBackdropImage": false,
     "backdropImagePath": "",
@@ -66,8 +66,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
-    "yorigin": 64,
+    "xorigin": 48,
+    "yorigin": 96,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Spr_Character_IdleSword","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},
@@ -77,7 +77,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d890888f-247d-40c1-ae78-5712c871792d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"538c555e-f173-410c-b657-b1fa8db12e8e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_test_Bullet",
-    "path": "sprites/Spr_test_Bullet/Spr_test_Bullet.yy",
+    "name": "Spr_Attack1",
+    "path": "sprites/Spr_Attack1/Spr_Attack1.yy",
   },
   "solid": false,
   "visible": true,
