@@ -15,6 +15,7 @@
     {"id":{"name":"Spr_Character_IdleWond","path":"sprites/Spr_Character_IdleWond/Spr_Character_IdleWond.yy",},"order":4,},
     {"id":{"name":"Obj_test_mp_bottle","path":"objects/Obj_test_mp_bottle/Obj_test_mp_bottle.yy",},"order":5,},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"order":4,},
+    {"id":{"name":"Spr_hp_bottle","path":"sprites/Spr_hp_bottle/Spr_hp_bottle.yy",},"order":5,},
     {"id":{"name":"Spr_Character_Hurt","path":"sprites/Spr_Character_Hurt/Spr_Character_Hurt.yy",},"order":3,},
     {"id":{"name":"Obj_PlayerChatacter","path":"objects/Obj_PlayerChatacter/Obj_PlayerChatacter.yy",},"order":0,},
     {"id":{"name":"Obj_test_bullets","path":"objects/Obj_test_bullets/Obj_test_bullets.yy",},"order":4,},
