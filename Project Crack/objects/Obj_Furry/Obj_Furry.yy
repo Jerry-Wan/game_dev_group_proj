@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite112",
-    "path": "sprites/Sprite112/Sprite112.yy",
+    "name": "Spr_Character_IdleEmpty",
+    "path": "sprites/Spr_Character_IdleEmpty/Spr_Character_IdleEmpty.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,7 +11,7 @@
     "name": "Obj_PlayerChatacter",
     "path": "objects/Obj_PlayerChatacter/Obj_PlayerChatacter.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,

@@ -84,9 +84,11 @@ else if(enemyState == EnemyStates.aggresive){
 		
 		if(attackLast){
 			if(enemyDir == -1){
-				enemySpeed = -12.5;
+				image_xscale = -1;
+				enemySpeed = -10;
 			}else{
-				enemySpeed = 12.5
+				image_xscale = 1;
+				enemySpeed = 10
 			}
 		}else{	
 			enemySpeed = 0;

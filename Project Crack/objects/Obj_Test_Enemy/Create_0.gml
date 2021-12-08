@@ -25,7 +25,7 @@ function GetHit(damage){
 	if (selfhealth == 0){
 		instance_destroy()
 		prob = random(10)
-		if prob <4{
+		if (prob <4){
 			var mpBottle = instance_create_layer(x+10,y-32, "Obstacles",Obj_test_mp_bottle);
 			if x <Obj_Furry.x{
 				mpBottle.inverse = -1

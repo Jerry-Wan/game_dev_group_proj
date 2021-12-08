@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "Spr_hit_box_test",
-    "path": "sprites/Spr_hit_box_test/Spr_hit_box_test.yy",
+    "name": "hit_box_test",
+    "path": "sprites/hit_box_test/hit_box_test.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

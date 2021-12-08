@@ -17,14 +17,6 @@ movement = keyLeft + keyRight;
 horizontalSpeed = movement * -moveSpeed;
 verticalSpeed += characterGravity;
 
-//view_point setting 
-camera_get_view_x(view_camera[0]); // gets cam x pos
-camera_get_view_y(view_camera[0]); // gets cam y pos
-var wide = camera_get_view_width(view_camera[0]); // gets cam width
-var high = camera_get_view_height(view_camera[0]); // gets cam height
-
-camera_set_view_pos(view_camera[0],x-wide/2,y-high/2-200) ;
-// sets camera position; x & y are the object position default variables
 
 //Land/floating Check
 if(onLand){
@@ -70,7 +62,8 @@ x += horizontalSpeed;
 var safeObstacle = instance_place(x,y+verticalSpeed,Obj_SafeObstacle)
 //Vertical block
 if(safeObstacle!=noone){
-	while(!place_meeting(x,y+verticalSpeed, Obj_SafeObstacle)){
+	while(!place_meeting(x,y+sign(verticalSpeed), Obj_SafeObstacle)){
+		show_debug_message(sign(verticalSpeed));
 		y+=sign(verticalSpeed);
 	}
 	verticalSpeed = 0;
@@ -80,7 +73,10 @@ if(safeObstacle!=noone){
 			sprite_index = Spr_Character_JumpEnd;
 		}
 	}
+	
+	
 }
+//show_debug_message(safeObstacle);
 y += verticalSpeed;
 
 //Jump
