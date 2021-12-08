@@ -23,9 +23,9 @@ else if(enemyState == EnemyStates.aggresive){
 		
 		if(attackLast){
 			if(enemyDir == -1){
-				enemySpeed = -6.5;
+				enemySpeed = -5.5;
 			}else{
-				enemySpeed = 6.5
+				enemySpeed = 5.5
 			}
 		}else{	
 			enemySpeed = 0;
