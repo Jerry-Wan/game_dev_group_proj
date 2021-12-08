@@ -25,9 +25,7 @@
     {"x":128.0,"y":102.0,},
     {"x":0.0,"y":102.0,},
   ],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_PlayerChatacter","path":"objects/Obj_PlayerChatacter/Obj_PlayerChatacter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

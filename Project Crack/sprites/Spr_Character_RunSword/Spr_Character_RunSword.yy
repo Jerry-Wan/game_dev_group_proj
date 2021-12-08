@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 64,
+  "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"39379e7e-3890-4501-8aad-623c73c15566","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"39379e7e-3890-4501-8aad-623c73c15566","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"LayerId":{"name":"dac6aa26-3550-47de-adb9-e5c96f45d339","path":"sprites/Spr_Character_RunSword/Spr_Character_RunSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

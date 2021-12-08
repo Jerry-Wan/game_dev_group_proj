@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 64,
+  "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"69abca36-1dd3-446b-8fb0-9a0e6a217445","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"69abca36-1dd3-446b-8fb0-9a0e6a217445","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"LayerId":{"name":"d890888f-247d-40c1-ae78-5712c871792d","path":"sprites/Spr_Character_IdleSword/Spr_Character_IdleSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
