@@ -128,6 +128,7 @@
     {"id":{"name":"Sprite73","path":"sprites/Sprite73/Sprite73.yy",},"order":10,},
     {"id":{"name":"Object52","path":"objects/Object52/Object52.yy",},"order":7,},
     {"id":{"name":"Object68","path":"objects/Object68/Object68.yy",},"order":5,},
+    {"id":{"name":"Snd_BGM","path":"sounds/Snd_BGM/Snd_BGM.yy",},"order":0,},
     {"id":{"name":"Sprite91","path":"sprites/Sprite91/Sprite91.yy",},"order":42,},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"order":0,},
     {"id":{"name":"Spr_Character_RunEmpty","path":"sprites/Spr_Character_RunEmpty/Spr_Character_RunEmpty.yy",},"order":6,},
