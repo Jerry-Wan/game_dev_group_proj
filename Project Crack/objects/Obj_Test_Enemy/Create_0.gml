@@ -22,7 +22,7 @@ function GetHit(damage){
 		alarm[0]=30
 	}
 
-	if (selfhealth == 0){
+	if (selfhealth <= 0){
 		instance_destroy()
 		prob = random(10)
 		if (prob <4){

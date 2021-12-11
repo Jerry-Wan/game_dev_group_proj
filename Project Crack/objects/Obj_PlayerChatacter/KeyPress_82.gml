@@ -15,3 +15,4 @@ if(!hasSword&&!hasWond){
 	}
 	if(hasSword&&!hasWond){ weaponState = WeaponStates.sword; }//first time pick up weapon
 	if(!hasSword&&hasWond){ weaponState = WeaponStates.wond; }
+	

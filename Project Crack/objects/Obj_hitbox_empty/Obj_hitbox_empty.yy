@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SPR_MPbottle",
-    "path": "sprites/SPR_MPbottle/SPR_MPbottle.yy",
+    "name": "hit_box_empty",
+    "path": "sprites/hit_box_empty/hit_box_empty.yy",
   },
   "solid": false,
   "visible": true,
@@ -19,10 +19,13 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":32.0,"y":0.0,},
+    {"x":32.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
+  ],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -32,7 +35,7 @@
     "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_test_mp_bottle",
+  "name": "Obj_hitbox_empty",
   "tags": [],
   "resourceType": "GMObject",
 }

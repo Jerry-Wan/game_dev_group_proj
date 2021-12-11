@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "hit_box_test",
-    "path": "sprites/hit_box_test/hit_box_test.yy",
+    "name": "hit_box_sword",
+    "path": "sprites/hit_box_sword/hit_box_sword.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -19,7 +19,12 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":48.0,"y":0.0,},
+    {"x":48.0,"y":64.0,},
+    {"x":0.0,"y":64.0,},
+  ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
@@ -30,7 +35,7 @@
     "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_test_box",
+  "name": "Obj_hitbox_sword",
   "tags": [],
   "resourceType": "GMObject",
 }

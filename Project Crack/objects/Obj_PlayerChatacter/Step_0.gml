@@ -113,30 +113,30 @@ if(keyAttack){
 	//decide whether create hitbox or shoot base on weaponState
 	if(weaponState == WeaponStates.sword){
 		if image_xscale >0{ 
-			instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+			instance_create_layer(x+30,y, "Obstacles",Obj_hitbox_sword);
 		}
 		else{
-			instance_create_layer(x-42,y-32, "Obstacles",Obj_test_box);
+			instance_create_layer(x-62,y, "Obstacles",Obj_hitbox_sword);
 		}
 	}
 	if(weaponState == WeaponStates.empty){
 		if image_xscale >0{ 
-			instance_create_layer(x+10,y-32, "Obstacles",Obj_test_box);
+			instance_create_layer(x+30,y, "Obstacles",Obj_hitbox_empty);
 		}
 		else{
-			instance_create_layer(x-42,y-32, "Obstacles",Obj_test_box);
+			instance_create_layer(x-62,y, "Obstacles",Obj_hitbox_empty);
 		}
 	}
 	if(weaponState == WeaponStates.wond){
-		if mp >= 10 and ableToShoot == true{
+		if global.mp >= 10 and ableToShoot == true{
 			if mouse_x <x{
 				image_xscale = -1;
 			}
 			if mouse_x >x{
 				image_xscale = 1;
 			}
-			instance_create_layer(x+10,y-32, "Obstacles",Obj_test_bullets);
-			mp -= 10
+			instance_create_layer(x+30,y, "Obstacles",Obj_test_bullets);
+			global.mp -= 10
 			ableToShoot = false
 			alarm[1] = 50
 		}

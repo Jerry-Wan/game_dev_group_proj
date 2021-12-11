@@ -122,3 +122,18 @@ var hitFurry = instance_place(x,y+verticalSpeed,Obj_Furry);
 if(hitFurry!=noone){
 	hitFurry.GetDamage();
 }
+
+
+var hitboxE = instance_place(x,y,Obj_hitbox_empty);
+var hitboxS = instance_place(x,y,Obj_hitbox_sword);
+var hitbullet = instance_place(x,y,Obj_test_bullets);
+
+if(hitboxE!=noone){
+	GetHit(34);
+}
+if(hitboxS!=noone){
+	GetHit(50);
+}
+if(hitbullet!=noone){
+	GetHit(25);
+}

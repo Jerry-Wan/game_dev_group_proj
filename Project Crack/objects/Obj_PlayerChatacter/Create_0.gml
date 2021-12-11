@@ -14,14 +14,14 @@ enum WeaponStates{
 	wond = 2
 }
 
-hp = 100
-mp = 100
+global.hp = 100
+global.mp = 100
 //shoot cd
 ableToShoot = true
 
 function GetDamage(){
 	if(!invincible){
-		hp -= 25;
+		global.hp -= 25;
 		invincible = true;
 		ChangeCharacterState(CharacterStates.hurt);
 		alarm[0] = 120;
