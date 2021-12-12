@@ -21,9 +21,10 @@ function GetHit(damage){
 		selfhealth -= damage
 		alarm[0]=30
 	}
-
+	sprite_index = Spr_Enemy_Melee_Hurt;
 	if (selfhealth <= 0){
-		instance_destroy()
+		sprite_index = Spr_Enemy_Melee_Death;
+		
 		prob = random(10)
 		if (prob <4){
 			var mpBottle = instance_create_layer(x+10,y-32, "Obstacles",Obj_test_mp_bottle);

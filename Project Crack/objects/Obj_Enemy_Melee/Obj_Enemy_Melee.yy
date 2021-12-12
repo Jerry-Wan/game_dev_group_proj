@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Enemy1_Run",
-    "path": "sprites/Spr_Enemy1_Run/Spr_Enemy1_Run.yy",
+    "name": "Spr_Enemy_Melee_Idle",
+    "path": "sprites/Spr_Enemy_Melee_Idle/Spr_Enemy_Melee_Idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,6 +32,7 @@
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"enemySpeed","tags":[],"resourceType":"GMObjectProperty",},
@@ -46,7 +47,7 @@
     "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Test_Enemy",
+  "name": "Obj_Enemy_Melee",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+if(sprite_index != Spr_Enemy_Melee_Death){
 var furry = instance_nearest(x,y,Obj_Furry);
 
 if(enemyState == EnemyStates.normal){
@@ -90,8 +90,10 @@ else if(enemyState == EnemyStates.aggresive){
 				image_xscale = 1;
 				enemySpeed = 10
 			}
+			sprite_index = Spr_Enemy_Melee_Attack;
 		}else{	
 			enemySpeed = 0;
+			sprite_index = Spr_Enemy_Melee_Idle;
 		}
 	}
 }
@@ -136,4 +138,5 @@ if(hitboxS!=noone){
 }
 if(hitbullet!=noone){
 	GetHit(25);
+}
 }
