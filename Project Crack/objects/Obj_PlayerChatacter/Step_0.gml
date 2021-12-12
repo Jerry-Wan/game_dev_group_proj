@@ -63,7 +63,7 @@ var safeObstacle = instance_place(x,y+verticalSpeed,Obj_SafeObstacle)
 //Vertical block
 if(safeObstacle!=noone){
 	while(!place_meeting(x,y+sign(verticalSpeed), Obj_SafeObstacle)){
-		show_debug_message(sign(verticalSpeed));
+		
 		y+=sign(verticalSpeed);
 	}
 	verticalSpeed = 0;
@@ -81,7 +81,7 @@ y += verticalSpeed;
 
 //Jump
 if(place_meeting(x,y+1, Obj_SafeObstacle)&&keyJump){
-	verticalSpeed = -20;
+	verticalSpeed = -25;
 	onLand = false;
 	ChangeCharacterState(CharacterStates.jump);
 }

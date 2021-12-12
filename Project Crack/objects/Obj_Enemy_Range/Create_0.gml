@@ -1,11 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-selfhealth = 100
+selfhealth = 50
 hit = false
 attackCooldown = false;
-attackLast = false;
 enemyDir = 0;
 enabled = false;
+
+enum EnemyStates{
+	normal = 1,
+	aggresive = 2
+}
 
 enemyState = EnemyStates.normal;
 randomize();
@@ -16,9 +20,12 @@ function GetHit(damage){
 		selfhealth -= damage
 		alarm[0]=30
 	}
-	sprite_index = Spr_Enemy_Melee_Hurt;
+	sprite_index = Spr_Enemy_Range_Hurt;
+	
+	show_debug_message(selfhealth);
+	
 	if (selfhealth <= 0){
-		sprite_index = Spr_Enemy_Melee_Death;
+		sprite_index = Spr_Enemy_Range_Death;
 		
 		prob = random(10)
 		if (prob <4){
@@ -30,4 +37,11 @@ function GetHit(damage){
 	}
 }
 
+function Shoot(){
+
+
+}
+
+
 alarm[3] = 240;
+alarm[4] = 180;

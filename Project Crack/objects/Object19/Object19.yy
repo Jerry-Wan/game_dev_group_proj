@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_SafeObstacle",
+    "path": "objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

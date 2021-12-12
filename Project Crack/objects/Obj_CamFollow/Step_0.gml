@@ -18,7 +18,4 @@ if(new_x>xBorderRight){new_x = xBorderRight;}
 if(new_y<yBorderUp){new_y = yBorderUp;}
 if(new_y>yBorderDown){new_y = yBorderDown;}
 
-show_debug_message(new_x);
-show_debug_message(new_y);
-
 camera_set_view_pos(view_camera[0], new_x, new_y);
