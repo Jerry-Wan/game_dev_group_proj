@@ -21,6 +21,7 @@
             {"propertyId":{"name":"HoV","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":958.0,"y":547.0,"resourceVersion":"1.0","name":"inst_3B7B103C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":584.0,"y":554.0,"resourceVersion":"1.0","name":"inst_6EC69132","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_PickSword","path":"objects/Obj_PickSword/Obj_PickSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":500.0,"resourceVersion":"1.0","name":"inst_75E9330E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Character","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":23.5,"scaleY":1.03125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":752.0,"y":831.0,"resourceVersion":"1.0","name":"inst_6BCAAEFF","tags":[],"resourceType":"GMRInstance",},
@@ -438,6 +439,7 @@
     {"name":"inst_4994FF07","path":"rooms/Market/Market.yy",},
     {"name":"inst_1EB4C71A","path":"rooms/Market/Market.yy",},
     {"name":"inst_75F532EB","path":"rooms/Market/Market.yy",},
+    {"name":"inst_75E9330E","path":"rooms/Market/Market.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -16,8 +16,10 @@ enum WeaponStates{
 
 global.hp = 100
 global.mp = 100
+
 //shoot cd
 ableToShoot = true
+
 
 function GetDamage(){
 	if(!invincible){
@@ -91,6 +93,29 @@ function ChangeWeaponState(character_state, weapon_state){
 				break;
 		}
 	}
+}
+
+function SwitchWeapon(){
+	if(!global.hasSword&&!global.hasWond){
+		//nothing happens, still empty hand.
+	}
+	if(global.hasSword&&global.hasWond){
+		if(weaponState == WeaponStates.sword){
+			weaponState = WeaponStates.wond;
+			instance_create_layer(x+10,y-32, "Obstacles",Obj_Aiming);
+		}else if(weaponState == WeaponStates.wond){
+			weaponState = WeaponStates.sword;
+		}else{
+			weaponState = WeaponStates.sword;
+		}
+	}
+	if(global.hasSword&&!global.hasWond){ weaponState = WeaponStates.sword; }//first time pick up weapon
+	if(!global.hasSword&&global.hasWond){ weaponState = WeaponStates.wond; }
+
+}
+
+if(global.hasSword||global.hasWond){
+	SwitchWeapon();
 }
 
 
