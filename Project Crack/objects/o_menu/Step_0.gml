@@ -26,11 +26,11 @@ if(keyboard_check_pressed(confirmButt))
 		room_goto(Resdential_Area)
 	}
 	
-	if(selected == 1) // Options by default
-	{
-		game_end();
-	}
 	if(selected == 2) // Options by default
+	{
+		room_goto(Rules);
+	}
+	if(selected == 1) // Options by default
 	{
 		game_end();
 	}

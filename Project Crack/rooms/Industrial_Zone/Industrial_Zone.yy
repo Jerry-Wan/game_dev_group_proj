@@ -42,6 +42,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":23.46875,"scaleY":1.125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":748.0,"y":-38.0,"resourceVersion":"1.0","name":"inst_F493084","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.21875,"scaleY":9.90625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-38.0,"y":313.0,"resourceVersion":"1.0","name":"inst_65421820","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.21875,"scaleY":9.90625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1538.0,"y":302.0,"resourceVersion":"1.0","name":"inst_6BD7008D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"HoV","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":376.0,"y":646.0,"resourceVersion":"1.0","name":"inst_37A8C6E1","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":2,"gridY":2,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Obstacles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -899,6 +902,7 @@
     {"name":"inst_F493084","path":"rooms/Industrial_Zone/Industrial_Zone.yy",},
     {"name":"inst_65421820","path":"rooms/Industrial_Zone/Industrial_Zone.yy",},
     {"name":"inst_6BD7008D","path":"rooms/Industrial_Zone/Industrial_Zone.yy",},
+    {"name":"inst_37A8C6E1","path":"rooms/Industrial_Zone/Industrial_Zone.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

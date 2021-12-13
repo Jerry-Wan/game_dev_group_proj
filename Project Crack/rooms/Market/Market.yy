@@ -45,6 +45,11 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.71874994,"scaleY":13.484374,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1524.0,"y":431.999969,"resourceVersion":"1.0","name":"inst_75F532EB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.125,"scaleY":13.5625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-34.0,"y":433.0,"resourceVersion":"1.0","name":"inst_1EFE7810","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":23.5625,"scaleY":0.84375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":760.0,"y":-21.0,"resourceVersion":"1.0","name":"inst_60B33CCA","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_PickSword","path":"objects/Obj_PickSword/Obj_PickSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":301.0,"y":543.0,"resourceVersion":"1.0","name":"inst_76D94FCD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"HoV","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"enemySpeed","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"value":"-2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":386.0,"resourceVersion":"1.0","name":"inst_628C09E4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":2,"gridY":2,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Obstacles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"illumination","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"assets":[
@@ -448,6 +453,8 @@
     {"name":"inst_1EFE7810","path":"rooms/Market/Market.yy",},
     {"name":"inst_60B33CCA","path":"rooms/Market/Market.yy",},
     {"name":"inst_F8B1CCF","path":"rooms/Market/Market.yy",},
+    {"name":"inst_76D94FCD","path":"rooms/Market/Market.yy",},
+    {"name":"inst_628C09E4","path":"rooms/Market/Market.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

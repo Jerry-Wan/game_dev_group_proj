@@ -39,7 +39,7 @@ titleCol = c_white;
 
 
 // Title of your game
-gameTitle = "Your Game";
+gameTitle = "FuryFurry";
 
 // Size of the title
 titleSize = 2;
