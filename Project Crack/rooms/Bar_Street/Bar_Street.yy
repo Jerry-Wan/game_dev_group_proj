@@ -34,6 +34,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Arrow_Right","path":"objects/Obj_Arrow_Right/Obj_Arrow_Right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1452.0,"y":227.0,"resourceVersion":"1.0","name":"inst_25C5F5DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_CamFollow","path":"objects/Obj_CamFollow/Obj_CamFollow.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":480.0,"resourceVersion":"1.0","name":"inst_59412A0F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":512.0,"resourceVersion":"1.0","name":"inst_6CF644E3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":16.765625,"scaleY":13.59375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2039.5,"y":434.0,"resourceVersion":"1.0","name":"inst_648A60B2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Wall","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Sprite2526","path":"sprites/Sprite2526/Sprite2526.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.53125,"scaleY":1.390625,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1317.0,"y":716.0,"resourceVersion":"1.0","name":"graphic_10DD8828","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -766,6 +767,7 @@
     {"name":"inst_25C5F5DB","path":"rooms/Bar_Street/Bar_Street.yy",},
     {"name":"inst_59412A0F","path":"rooms/Bar_Street/Bar_Street.yy",},
     {"name":"inst_6CF644E3","path":"rooms/Bar_Street/Bar_Street.yy",},
+    {"name":"inst_648A60B2","path":"rooms/Bar_Street/Bar_Street.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
