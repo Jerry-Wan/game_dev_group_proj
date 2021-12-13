@@ -8,6 +8,10 @@ if(furry!=noone){
 			GameManager.GoToStage(Market);
 		}else if(room == Market){
 			GameManager.GoToStage(Industrial_Zone);
+		}else if(room == Industrial_Zone){
+			GameManager.GoToStage(Lab_Zone);
+		}else if(room == Lab_Zone){
+			GameManager.GoToStage(Bar_Street);
 		}
 	}
 }
