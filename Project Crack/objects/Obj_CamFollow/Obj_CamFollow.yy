@@ -28,8 +28,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objects/Player.yy",
+    "name": "Project Crack",
+    "path": "Project Crack.yyp",
   },
   "resourceVersion": "1.0",
   "name": "Obj_CamFollow",
