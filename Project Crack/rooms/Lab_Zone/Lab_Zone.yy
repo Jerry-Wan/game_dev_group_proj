@@ -30,6 +30,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.8125,"scaleY":1.3125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":776.0,"y":519.0,"resourceVersion":"1.0","name":"inst_3A7D2EEC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.046875,"scaleY":0.625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":611.5,"y":347.0,"resourceVersion":"1.0","name":"inst_7355C0E2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.03125,"scaleY":0.65625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":211.0,"y":492.0,"resourceVersion":"1.0","name":"inst_14E31FE8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Gate","path":"objects/Obj_Gate/Obj_Gate.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.390625,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-1.0,"y":176.0,"resourceVersion":"1.0","name":"inst_32AA4F29","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Wall","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Switch","path":"objects/Switch/Switch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":831.0,"y":698.0,"resourceVersion":"1.0","name":"inst_6F4242F0","tags":[],"resourceType":"GMRInstance",},
@@ -780,6 +781,7 @@
     {"name":"inst_3A7D2EEC","path":"rooms/Lab_Zone/Lab_Zone.yy",},
     {"name":"inst_7355C0E2","path":"rooms/Lab_Zone/Lab_Zone.yy",},
     {"name":"inst_14E31FE8","path":"rooms/Lab_Zone/Lab_Zone.yy",},
+    {"name":"inst_32AA4F29","path":"rooms/Lab_Zone/Lab_Zone.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

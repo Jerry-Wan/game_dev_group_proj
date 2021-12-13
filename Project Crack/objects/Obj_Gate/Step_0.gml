@@ -7,6 +7,8 @@ if(furry!=noone){
 		if(room == Resdential_Area){
 			GameManager.GoToStage(Market);
 		}else if(room == Market){
+			GameManager.GoToStage();
+		}else if(room == Bar_){
 			GameManager.GoToStage(Industrial_Zone);
 		}else if(room == Industrial_Zone){
 			GameManager.GoToStage(Lab_Zone);
