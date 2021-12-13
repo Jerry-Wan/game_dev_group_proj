@@ -44,6 +44,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1532.0,"y":4.0,"resourceVersion":"1.0","name":"inst_3F08F6F6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Key_S","path":"objects/Obj_Key_S/Obj_Key_S.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1454.0,"y":600.0,"resourceVersion":"1.0","name":"inst_27811299","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Arrow_Right","path":"objects/Obj_Arrow_Right/Obj_Arrow_Right.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1472.0,"y":600.0,"resourceVersion":"1.0","name":"inst_5168A803","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_SafeObstacle","path":"objects/Obj_SafeObstacle/Obj_SafeObstacle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.70833325,"scaleY":0.65625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1462.0,"y":281.0,"resourceVersion":"1.0","name":"inst_2BF89C94","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_PickSword","path":"objects/Obj_PickSword/Obj_PickSword.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1390.0,"y":220.0,"resourceVersion":"1.0","name":"inst_515CF66B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":2,"gridY":2,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Obstacles","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Aiming","path":"objects/Aiming/Aiming.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":608.0,"resourceVersion":"1.0","name":"inst_33D2D5AA","tags":[],"resourceType":"GMRInstance",},
@@ -545,6 +547,8 @@
     {"name":"inst_704ED9CA","path":"rooms/Resdential_Area/Resdential_Area.yy",},
     {"name":"inst_27811299","path":"rooms/Resdential_Area/Resdential_Area.yy",},
     {"name":"inst_5168A803","path":"rooms/Resdential_Area/Resdential_Area.yy",},
+    {"name":"inst_2BF89C94","path":"rooms/Resdential_Area/Resdential_Area.yy",},
+    {"name":"inst_515CF66B","path":"rooms/Resdential_Area/Resdential_Area.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
