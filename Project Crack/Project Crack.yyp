@@ -106,7 +106,7 @@
     {"id":{"name":"Object15","path":"objects/Object15/Object15.yy",},"order":4,},
     {"id":{"name":"Rules","path":"rooms/Rules/Rules.yy",},"order":8,},
     {"id":{"name":"Object94","path":"objects/Object94/Object94.yy",},"order":6,},
-    {"id":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"order":2,},
+    {"id":{"name":"Obj_Enemy_Range","path":"objects/Obj_Enemy_Range/Obj_Enemy_Range.yy",},"order":8,},
     {"id":{"name":"Spr_Enemy_Boss_Die2","path":"sprites/Spr_Enemy_Boss_Die2/Spr_Enemy_Boss_Die2.yy",},"order":3,},
     {"id":{"name":"Spr_Attack1","path":"sprites/Spr_Attack1/Spr_Attack1.yy",},"order":0,},
     {"id":{"name":"s_cursor_1","path":"sprites/s_cursor_1/s_cursor_1.yy",},"order":17,},

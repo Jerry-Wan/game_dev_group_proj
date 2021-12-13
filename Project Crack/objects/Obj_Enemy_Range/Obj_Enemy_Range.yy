@@ -37,8 +37,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Enemy.yy",
+    "name": "Notes",
+    "path": "folders/Objects/Notes.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Enemy_Range",
