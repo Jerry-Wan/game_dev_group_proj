@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Key_R",
+    "path": "sprites/Spr_Key_R/Spr_Key_R.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
