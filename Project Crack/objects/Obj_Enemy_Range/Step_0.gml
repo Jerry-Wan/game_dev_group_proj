@@ -5,7 +5,7 @@ if(sprite_index != Spr_Enemy_Range_Death){
 var furry = instance_nearest(x,y,Obj_Furry);
 
 if(enemyState == EnemyStates.normal){
-	if(sqrt((furry.x-x)*(furry.x-x)+(furry.y-y)*(furry.y-y))<=200){
+	if(sqrt((furry.x-x)*(furry.x-x)+(furry.y-y)*(furry.y-y))<=500){
 		enemyState = EnemyStates.aggresive;
 	}
 	
@@ -18,7 +18,7 @@ if(enemyState == EnemyStates.normal){
 }
 else if(enemyState == EnemyStates.aggresive){
 	
-	if(sqrt((furry.x-x)*(furry.x-x)+(furry.y-y)*(furry.y-y))>=300){
+	if(sqrt((furry.x-x)*(furry.x-x)+(furry.y-y)*(furry.y-y))>=400){
 		enemyState = EnemyStates.normal;
 	}
 	
@@ -27,9 +27,8 @@ else if(enemyState == EnemyStates.aggresive){
 			attackCooldown = true;
 			enemyDir = furry.x<x?-1:1;
 			alarm[1] = 240;
+			instance_create_layer(x,y, "Obstacles",Obj_test_bullets_enemy);
 			
-			
-			//alarm[2] = 40;
 		}
 	}
 }
